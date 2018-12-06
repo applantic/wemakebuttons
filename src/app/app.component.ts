@@ -11,37 +11,122 @@ export class AppComponent implements OnInit {
   private piotrek: Member = {
     name: 'Piotr Korlaga',
     position: 'Jack of all trades, master of none',
-    picUrl: 'piotrek.png'
+    picUrl: 'piotrek.png',
+    icons: [
+      {
+        name: 'linkedin',
+        link: 'https://www.linkedin.com/in/piotrkorlaga/'
+      },
+      {
+        name: 'github-square',
+        link: 'https://github.com/piotrkorlaga'
+      },
+      {
+        name: 'medium',
+        link: 'https://medium.com/@piotrkorlaga'
+      }
+      ,
+      {
+        name: 'stack-overflow',
+        link: 'https://stackoverflow.com/users/4191683/piotr-korlaga?tab=profile'
+      }
+    ]
   };
 
   private krzychu: Member = {
     name: 'Krzysztof Jedynak',
     position: 'Mobile Prophet',
-    picUrl: 'krzychu.png'
+    picUrl: 'krzychu.png',
+    icons: [
+      {
+        name: 'linkedin',
+        link: 'https://www.linkedin.com/in/krzysztof-jedynak-06995214a/'
+      },
+      {
+        name: 'github-square',
+        link: ''
+      },
+      {
+        name: 'medium',
+        link: ''
+      }
+    ]
   };
 
   private maciej: Member = {
     name: 'Maciej Matuszewski',
     position: 'Frontend Wizard',
-    picUrl: 'potter.png'
+    picUrl: 'potter.png',
+    icons: [
+      {
+        name: 'linkedin',
+        link: ''
+      },
+      {
+        name: 'github-square',
+        link: ''
+      },
+      {
+        name: 'medium',
+        link: ''
+      }
+    ]
   };
 
   private mateusz: Member = {
     name: 'Mateusz Karski',
     position: 'UX/UI Godfather',
-    picUrl: 'mateusz.png'
+    picUrl: 'mateusz.png',
+    icons: [
+      {
+        name: 'linkedin',
+        link: ''
+      },
+      {
+        name: 'behance-square',
+        link: 'https://www.behance.net/MateuszKarski'
+      },
+      {
+        name: 'dribbble-square',
+        link: 'https://dribbble.com/MateuszKarski'
+      }
+    ]
   };
 
   private daniel: Member = {
     name: 'Daniel Karski',
     position: 'Angular Ninja',
-    picUrl: 'daniel.jpg'
+    picUrl: 'daniel.jpg',
+    icons: [
+      {
+        name: 'linkedin',
+        link: ''
+      },
+      {
+        name: 'github-square',
+        link: ''
+      }
+    ]
   };
 
   private kamil: Member = {
     name: 'Kamil Dzieniszewski',
     position: 'React Hacker',
-    picUrl: 'kamil.jpg'
+    picUrl: 'kamil.jpg',
+    icons: [
+      {
+        name: 'linkedin',
+        link: ''
+      },
+      {
+        name: 'github-square',
+        link: ''
+      },
+      {
+        name: 'medium',
+        link: ''
+      }
+    ]
   };
 
   constructor() {

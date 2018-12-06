@@ -9,8 +9,8 @@ export class TeamMemberComponent implements OnInit {
 
   @Input()
   member: Member;
-
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit() {
   }
