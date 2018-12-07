@@ -57,18 +57,19 @@ export class AppComponent implements OnInit {
     name: 'Maciej Matuszewski',
     position: 'Frontend Wizard',
     picUrl: 'potter.png',
+    hoverPicUrl: 'maciej.png',
     icons: [
       {
         name: 'linkedin',
-        link: ''
+        link: 'https://www.linkedin.com/in/maciej-matuszewski-5087a975/'
       },
       {
         name: 'github-square',
-        link: ''
+        link: 'https://github.com/maciejmatu'
       },
       {
         name: 'medium',
-        link: ''
+        link: 'https://medium.com/@maciejmatu'
       }
     ]
   };
@@ -100,11 +101,11 @@ export class AppComponent implements OnInit {
     icons: [
       {
         name: 'linkedin',
-        link: ''
+        link: 'https://www.linkedin.com/in/daniel-karski'
       },
       {
         name: 'github-square',
-        link: ''
+        link: 'https://github.com/dkarski'
       }
     ]
   };
@@ -116,15 +117,15 @@ export class AppComponent implements OnInit {
     icons: [
       {
         name: 'linkedin',
-        link: ''
+        link: 'https://www.linkedin.com/in/dzieniszewski'
       },
       {
         name: 'github-square',
-        link: ''
+        link: 'https://github.com/dzienisz'
       },
       {
         name: 'medium',
-        link: ''
+        link: 'https://medium.com/@kamildzieniszewski'
       }
     ]
   };
