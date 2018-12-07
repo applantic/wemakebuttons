@@ -57,7 +57,6 @@ export class AppComponent implements OnInit {
     name: 'Maciej Matuszewski',
     position: 'Frontend Wizard',
     picUrl: 'potter.png',
-    hoverPicUrl: 'maciej.png',
     icons: [
       {
         name: 'linkedin',
