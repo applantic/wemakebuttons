@@ -129,6 +129,26 @@ export class AppComponent implements OnInit {
     ]
   };
 
+  private kacper: Member = {
+    name: 'Kacper Mordalski',
+    position: 'Full Stack Engineer',
+    picUrl: 'kacper.jpg',
+    icons: [
+      {
+        name: 'linkedin',
+        link: ''
+      },
+      {
+        name: 'github-square',
+        link: ''
+      },
+      {
+        name: 'medium',
+        link: ''
+      }
+    ]
+  };
+
   constructor() {
   }
 
@@ -140,6 +160,7 @@ export class AppComponent implements OnInit {
       this.mateusz,
       this.daniel,
       this.kamil,
+      this.kacper,
     ];
   }
 }
