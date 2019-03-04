@@ -111,7 +111,7 @@ export class AppComponent implements OnInit {
 
   private kamil: Member = {
     name: 'Kamil Dzieniszewski',
-    position: 'React Hacker',
+    position: 'React Hacker, Golden Mouth Pitch Master',
     picUrl: 'kamil.jpg',
     icons: [
       {
